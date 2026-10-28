@@ -1,0 +1,23 @@
+START HERE — MLP DEEP LEARNING PROJECT
+
+This package contains your code and report draft. The actual Kaggle CSV data and official result outputs must be created locally.
+
+1. Download the two datasets linked in README.md.
+2. Put the CSVs in the data folder. Use these filenames, or edit the commands if yours differ:
+   - data\Housing.csv
+   - data\kc_house_data.csv
+3. On Windows, double-click setup_windows.bat and wait for installation to finish.
+4. Double-click check_datasets.bat. Fix any errors before the long run.
+5. Optional: run smoke_test.py to confirm the pipeline works. It uses fake synthetic data; NEVER report those scores.
+6. Double-click run_mlp.bat to run both official experiments. Keep the window open until it finishes.
+7. Open results_mlp\combined_test_summary.csv first. Check the other CSV/JSON files and figures in each dataset subfolder.
+8. Complete MLP_Report_Draft.docx using the actual official outputs. Remove all placeholders.
+9. Use PRE_SUBMISSION_CHECKLIST.md before handing the work to the group.
+
+IMPORTANT
+- The ZIP does not contain the two Kaggle CSV files. Download the exact versions selected by your group.
+- The report files are drafts; they do not contain final empirical metrics yet.
+- Do not use smoke-test scores as project results.
+- Keep the test set untouched during hyperparameter tuning and early stopping.
+
+See README.md for full explanations and troubleshooting.
